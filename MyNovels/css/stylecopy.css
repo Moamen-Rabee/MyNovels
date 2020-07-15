@@ -1,0 +1,481 @@
+/* Main Edit */
+
+@font-face{
+	font-family: FontBold;
+  	src: url(../fonts/DroidKufi-Bold.ttf);
+}
+
+@font-face{
+	font-family: FontRegular;
+  	src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+@font-face{
+	font-family: Amiri-Bold;
+  	src: url(../fonts/Amiri-Bold.ttf);
+}
+
+@font-face{
+	font-family: Amiri-Regular;
+  	src: url(../fonts/Amiri-Regular.ttf);
+}
+    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: FontRegular, Helvetica, sans-serif;
+
+}
+
+
+/* NavBar Edit */
+.navbar.bg-light{
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #000;
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-brand{
+    font-family: Amiri-Bold, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.nav-link{
+    text-align: center;
+    
+    transition: color 0.7s;
+}
+
+.nav-link:hover{
+
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+
+
+.svg-inline--fa{
+    margin-left: 7px;
+    font-size: 19px;
+    position: relative;
+    bottom: -3px;
+}
+
+/* novel edit */
+.novel{
+    text-align: center;
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #868686;
+    box-shadow: 0px 0px 1px #000;
+    border-radius: 8px;
+}
+
+.novel h3{
+    margin: 20px 0px;
+    font-family: FontBold, Helvetica, sans-serif;
+    
+}
+
+
+
+.novel .img img{
+    max-height: 300px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.novel .noval-text{
+    padding: 10px;
+    font-family: Amiri-bold, Helvetica, sans-serif;
+    /*font-family: FontBold, Helvetica, sans-serif;*/
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.novel .noval-info{
+    margin-bottom: 10px;
+}
+.novel .noval-info span{
+    margin-right: 0px;
+}
+
+.novel .btn-novel-info a{
+    padding: 5px 25px;
+    margin: 5px;
+    
+    border: 1px solid #454545;
+    transition: background-color 0.3s;
+}
+
+.novel .btn-novel-info a,
+.novel .btn-novel-info a:hover{
+    text-decoration: none;
+    
+    width: 120px;
+}
+
+.novel .btn-novel-info a:hover{
+    
+    border: 1px solid #454545;
+    text-decoration: none;
+    
+}
+
+.novel .buttons{
+    margin: 20px auto;
+    
+}
+
+.novel .buttons .link{
+    margin: 10 1px;
+    padding: 3px 20px;
+    
+    color:rgb(107, 107, 107);
+    text-decoration: none;
+}
+
+.novel .buttons .link:hover{
+    
+    
+    
+    text-decoration: none;
+}
+
+
+
+/* Latest novels Edit */
+.latest-novel{
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #868686;
+    box-shadow: 0px 0px 1px #000;
+    border-radius: 8px;
+}
+
+.l-novel{
+    margin-bottom: 15px;
+    
+}
+
+.latest-novel h4{
+    background-color: #454545;
+    width: 100%;
+    padding: 8px;
+    
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+}
+
+.latest-novel .l-img{
+    width: 100px;
+    text-align: center;
+    border: 1px solid #222222;
+    padding: 2px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 5px;
+}
+.latest-novel .l-img img{
+    max-width: 90px;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+
+
+.l-noval-title{
+    font-size: smaller;
+    
+}
+
+.l-noval-title a,
+.l-noval-title a:hover{
+    
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+.div_comments{
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #868686;
+    box-shadow: 0px 0px 1px #000;
+    border-radius: 8px;
+}
+
+.div_comments .img_comment{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.div_comments .img_comment img{
+    height: 50px;
+    max-width: 50px;
+    border: 1px solid #8b8b8b;
+    box-shadow: 0px 0px 2px #222222;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.div_comments table tr td{
+    padding: 10px;
+}
+.div_comments table{
+    border-bottom: 1px solid #eaeaea;
+}
+.div_comments table:last-child{
+    border-bottom: 0px solid #fff;
+}
+
+.div_comments .comment{
+    padding: 5px;
+    
+    right: 70px;
+    border-radius: 8px 0px 8px 8px ;
+    
+}
+.div_comments .comment h6{
+    
+    font-weight: bold;
+    display: inline;
+
+}
+
+.div_comments h4{
+    
+    width: 100%;
+    padding: 8px;
+    
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+}
+
+
+
+
+.tbl_info_user{
+    width: 100%;
+    
+    border: 1px solid #868686;
+    
+}
+.tbl_info_user tr{
+    border-radius: 5px;
+}
+.tbl_info_user tr td{
+    padding: 5px 10px;
+}
+
+/* footer edit */
+.footer{
+    width: 100%;
+    color: #fff;
+    background-color: #222222;
+    text-align: center;
+    padding:15px;
+}
+
+
+
+/* form users add */
+
+.form_add_user{
+    position: relative;
+    
+    margin: auto;
+    padding: 20px;
+    top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #888;
+    margin-bottom: 30px;
+}
+
+.form_add_user tr td{
+    padding: 0px 5px;
+}
+
+.form_add_user h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+    font-size: 2em;
+	font-family: FontBold, Helvetica, sans-serif;
+    
+}
+
+
+.form_add_user table{
+    width: 100%;
+}
+
+.form_add_user table label{
+    margin-bottom: 10px;
+}
+
+.form_add_user table input{
+    margin-bottom: 15px;
+}
+
+
+
+/* profile edit page */
+.img-profile{
+    border-radius: 10px;
+    border: 2px solid #888;
+    box-shadow: 0px 1px 5px #888;
+}
+
+
+.image_comment{
+    vertical-align: text-top;
+}
+
+/* edit mynovels page */
+
+.box-mynovels{
+    margin-bottom: 20px;
+}
+
+.box-mynovels .mynovel{
+    
+    padding: 5px;
+    border: 2px solid #888;
+    box-shadow: 0px 1px 5px #888;
+    margin-bottom: 10px;
+    
+}
+
+.box-mynovels .mynovel .div_img{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.box-mynovels .mynovel .div_img img{
+    height: 200px;
+    vertical-align: middle;
+    position: absolute;
+    transform: translateX(50%);
+}
+
+
+.mynovels_buttons{
+    margin: 20px 5px;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------- admin pages ------------------------- */
+
+/* home admin page */
+.box_index_admin{
+    
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 20px #ddd;
+    transition: 0.5s ;
+    
+    
+}
+
+
+.box_index_admin:hover{
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 20px rgb(245, 245, 245);
+    color: rgb(160, 26, 26);
+}
+
+
+.box_index_admin h5{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.box_index_admin h4{
+    font-weight: bold;
+    font-family: FontBold, Helvetica, sans-serif;
+    font-size: 2em;
+    
+}
+
+.box_index_admin .logo_index_admin .svg-inline--fa{
+    font-size: 70px;
+    margin: auto;
+    padding: 0;
+}
+.box_index_admin .logo_index_admin{
+    border: 1px solid #dddddd;
+    padding: 15px;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 100px;
+    margin-bottom: 30px;
+
+}
+
+/* all novels page */
+.heading_all_novels{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.img_novels{
+    max-height: 50px;
+    max-width: 70px;
+}
+.table_novels{
+    
+}
